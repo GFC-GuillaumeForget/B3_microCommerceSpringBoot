@@ -1,0 +1,11 @@
+com\ecommerce\microcommerce\MicrocommerceApplication.class
+com\ecommerce\microcommerce\dao\dialects\SQLiteDialect.class
+com\ecommerce\microcommerce\dao\manualDAO\ProductsDAOImpl.class
+com\ecommerce\microcommerce\Repository\ProductRepository.class
+com\ecommerce\microcommerce\model\manualDAO\ProductModel.class
+com\ecommerce\microcommerce\dao\dialects\SQLiteIdentityColumnSupport.class
+com\ecommerce\microcommerce\dao\manualDAO\HibernateCfg.class
+com\ecommerce\microcommerce\web\controller\ProductControllerJPA.class
+com\ecommerce\microcommerce\dao\manualDAO\ProductsDAO.class
+com\ecommerce\microcommerce\model\Product.class
+com\ecommerce\microcommerce\web\controller\manualDAO\ProductController.class

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.ecommerce.microcommerce.MicrocommerceApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 13.002 s <<< FAILURE! - in com.ecommerce.microcommerce.MicrocommerceApplicationTests
+contextLoads  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productRepository': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.ecommerce.microcommerce.Repository.ProductRepository.findByNomAndByPrix()! No property byPrix found for type Product!
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.ecommerce.microcommerce.Repository.ProductRepository.findByNomAndByPrix()! No property byPrix found for type Product!
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property byPrix found for type Product!
+
